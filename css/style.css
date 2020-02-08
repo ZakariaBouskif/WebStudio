@@ -1,0 +1,153 @@
+body{
+    width: 1300px;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    padding-right: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* #region NAV*/
+
+nav{
+    width: 100%;
+    height: 20px;
+    background: black;
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+}
+
+nav li{
+    padding-right: 20px;
+}
+
+nav li a:hover{
+    color: white;
+}
+
+/* #endregion */
+
+
+/* #region main WEBSTUDIO*/
+#container{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    height: 567px;    
+}
+
+#elements{
+    grid-column: 1/2;
+    grid-row: auto;
+    border: 1px solid black;
+}
+
+#display{
+    grid-column: 2/3;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+#proprietes{
+    grid-column: 3/4;
+    border: 1px solid black;    
+}
+
+/* #endregion */
+
+
+/* #region ACCORDION*/
+
+#accordion{
+    padding: 10px;
+}
+#accordion h2{
+    padding: 10px;
+    margin: 0;
+    background: #ddd;
+    cursor:pointer;
+}
+
+#accorfion .display-elements{
+    padding: 0 5px;
+}
+/* #endregion */
+
+
+/* #region CLEINT CLASSES*/
+
+.client-header{
+    margin: 0;
+    background: black;
+    border: 1px solid white;
+    width: 100%;
+    height: auto;
+    text-align: start;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.client-main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size : "16pt";
+    background : "#ddd";
+    width : "100%";
+    height : "200px";
+}
+
+
+.header-image-text{
+    margin-top : 0;
+    font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size : 16pt;
+    position : relative;
+    top :  0;
+    left : 0;
+    color : black;
+    background : transparent;
+    text-align : center;
+    background-attachment: fixed;
+}
+
+
+
+/* #endregion */
+
+
+.btn{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(9, 9, 82);
+    color: white;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16pt;
+}
+
+#tool{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(50, 114, 173);
+}
+
+#tool ul{
+    margin: 0;    
+}
